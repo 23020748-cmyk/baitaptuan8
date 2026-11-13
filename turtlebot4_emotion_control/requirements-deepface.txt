@@ -1,0 +1,7 @@
+-r requirements-vision.txt
+tensorflow==2.15.1
+tf-keras==2.15.1
+deepface==0.0.93
+retina-face==0.0.17
+mtcnn==0.1.1
+gdown==5.2.0

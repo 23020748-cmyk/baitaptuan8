@@ -1,0 +1,21 @@
+emotion_control:
+  ros__parameters:
+    camera_source: '0'
+    show_window: true
+    cmd_vel_topic: /cmd_vel
+    odom_topic: /odom
+    inference_hz: 3.0
+    backend: opencv
+    model_dir: ''
+    confidence_threshold: 0.60
+    stable_samples: 3
+    stable_duration: 0.35
+    observation_timeout: 1.5
+    camera_timeout: 0.4
+    odom_timeout: 0.5
+    linear_speed: 0.10
+    arc_angular_speed: 0.35
+    reverse_speed: 0.08
+    step_duration: 1.5
+    spin_speed: 0.60
+    spin_tolerance: 0.03
